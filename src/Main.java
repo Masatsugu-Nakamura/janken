@@ -51,6 +51,9 @@ public class Main {
         com.createRandomHand();
 
         //テストコード
-        
+
+
+        //勝敗決定
+        int result = Game.judge(user, com);
     }
 }
